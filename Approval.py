@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-SESSION_STRING = "BQGfjM8AcnBHOyj-eKRTbttTseAGRhWmxKbljsd-IDYKyATeRWDDMAqK1IezrjwcFejDFstCZaFvxXIHL_frIXTQb-2qS3QOMHswYE7uABfZ04imELXj9i1PrmsSAEz3-2X8OYPyQav998AyGxJDRhoO8-D64WBPaFrJdjzwms7dV4kKGzZhujkhF3wh6AiqS7yXIkK5RxXxz57HomWfbQpKJ-qxam08Yoy2bdWh92qo3saMwNAPNAT60dQu8znRoUWJDA7cv94NCMz9KwA9w689-L1hYqtOceushyDN0JnhbSEhvdO738xBv1P0ZfBW0rlO6uryx-TSnXh6A_rN1wqbIJi2PAAAAAE9CjtJAA"
+SESSION_STRING = os.getenv("SESSION_STRING")
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID"))
 # MongoDB configuration
 MONGO_URL = os.getenv("MONGO_URL")
